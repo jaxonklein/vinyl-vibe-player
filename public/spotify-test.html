@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Authentication Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #1DB954;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Spotify Authentication Test</h1>
+    
+    <div id="login-section">
+        <p>This is a simple test page to verify Spotify authentication.</p>
+        <button id="login-button">Login with Spotify</button>
+    </div>
+    
+    <div id="token-section" class="hidden">
+        <h2>Authentication Successful!</h2>
+        <p>You have successfully authenticated with Spotify.</p>
+        
+        <h3>Access Token:</h3>
+        <pre id="access-token"></pre>
+        
+        <h3>Token Expiration:</h3>
+        <p id="token-expiration"></p>
+        
+        <button id="test-player-button">Test Web Playback SDK</button>
+        <div id="player-result"></div>
+    </div>
+    
+    <div id="error-section" class="hidden">
+        <h2>Authentication Error</h2>
+        <p>There was an error authenticating with Spotify:</p>
+        <pre id="error-message"></pre>
+    </div>
+    
+    <div id="log-section">
+        <h3>Log:</h3>
+        <pre id="log"></pre>
+    </div>
+
+    <script>
+        // DOM Elements
+        const loginSection = document.getElementById('login-section');
+        const tokenSection = document.getElementById('token-section');
+        const errorSection = document.getElementById('error-section');
+        const loginButton = document.getElementById('login-button');
+        const testPlayerButton = document.getElementById('test-player-button');
+        const accessTokenElement = document.getElementById('access-token');
+        const tokenExpirationElement = document.getElementById('token-expiration');
+        const errorMessageElement = document.getElementById('error-message');
+        const playerResultElement = document.getElementById('player-result');
+        const logElement = document.getElementById('log');
+        
+        // Logging function
+        function log(message) {
+            const timestamp = new Date().toISOString();
+            const formattedMessage = `[${timestamp}] ${message}`;
+            console.log(formattedMessage);
+            logElement.textContent += formattedMessage + '\n';
+        }
+        
+        // Check for authentication response in URL hash
+        function checkAuth() {
+            log('Checking for authentication response');
+            
+            const hash = window.location.hash.substring(1);
+            if (!hash) return false;
+            
+            const params = new URLSearchParams(hash);
+            
+            // Check for error
+            if (params.has('error')) {
+                const error = params.get('error');
+                log(`Authentication error: ${error}`);
+                errorMessageElement.textContent = error;
+                errorSection.classList.remove('hidden');
+                loginSection.classList.add('hidden');
+                return true;
+            }
+            
+            // Check for access token
+            if (params.has('access_token')) {
+                const accessToken = params.get('access_token');
+                const expiresIn = params.get('expires_in') || '3600';
+                const refreshToken = params.get('refresh_token') || '';
+                
+                log(`Authentication successful. Token expires in ${expiresIn} seconds`);
+                
+                // Store tokens
+                localStorage.setItem('spotify_token', accessToken);
+                localStorage.setItem('spotify_refresh_token', refreshToken);
+                localStorage.setItem('spotify_token_timestamp', Date.now());
+                localStorage.setItem('spotify_token_expires_in', expiresIn);
+                
+                // Update UI
+                accessTokenElement.textContent = accessToken;
+                const expirationTime = new Date(Date.now() + parseInt(expiresIn) * 1000);
+                tokenExpirationElement.textContent = `Token expires at: ${expirationTime.toLocaleString()}`;
+                
+                loginSection.classList.add('hidden');
+                tokenSection.classList.remove('hidden');
+                
+                // Clear hash from URL
+                history.replaceState(null, null, ' ');
+                
+                return true;
+            }
+            
+            return false;
+        }
+        
+        // Login with Spotify
+        loginButton.addEventListener('click', () => {
+            log('Initiating Spotify login');
+            
+            // Get the current origin
+            const origin = window.location.origin;
+            const redirectUri = `${origin}`;
+            
+            // Spotify authorization parameters
+            const clientId = '540bd995048d4cf99698f3bfc82099e3';
+            const scopes = 'user-read-private user-read-email streaming user-modify-playback-state user-read-playback-state';
+            
+            // Build the authorization URL
+            const authUrl = 'https://accounts.spotify.com/authorize' +
+                '?response_type=code' +
+                '&client_id=' + encodeURIComponent(clientId) +
+                '&scope=' + encodeURIComponent(scopes) +
+                '&redirect_uri=' + encodeURIComponent(redirectUri);
+            
+            log(`Redirecting to Spotify authorization: ${authUrl}`);
+            
+            // Redirect to Spotify authorization page
+            window.location.href = authUrl;
+        });
+        
+        // Test Web Playback SDK
+        testPlayerButton.addEventListener('click', () => {
+            log('Testing Spotify Web Playback SDK');
+            playerResultElement.innerHTML = '<p>Initializing Spotify Web Playback SDK...</p>';
+            
+            // Load the Spotify Web Playback SDK
+            const script = document.createElement('script');
+            script.src = 'https://sdk.scdn.co/spotify-player.js';
+            script.async = true;
+            
+            script.onload = () => {
+                log('Spotify Web Playback SDK script loaded');
+            };
+            
+            document.body.appendChild(script);
+            
+            // Initialize the player when SDK is ready
+            window.onSpotifyWebPlaybackSDKReady = () => {
+                log('Spotify Web Playback SDK ready');
+                
+                const token = localStorage.getItem('spotify_token');
+                if (!token) {
+                    log('No access token available');
+                    playerResultElement.innerHTML = '<p class="error">Error: No access token available</p>';
+                    return;
+                }
+                
+                const player = new Spotify.Player({
+                    name: 'Spotify Test Player',
+                    getOAuthToken: cb => { cb(token); },
+                    volume: 0.5
+                });
+                
+                // Error handling
+                player.addListener('initialization_error', ({ message }) => {
+                    log(`Initialization error: ${message}`);
+                    playerResultElement.innerHTML += `<p class="error">Initialization error: ${message}</p>`;
+                });
+                
+                player.addListener('authentication_error', ({ message }) => {
+                    log(`Authentication error: ${message}`);
+                    playerResultElement.innerHTML += `<p class="error">Authentication error: ${message}</p>`;
+                });
+                
+                player.addListener('account_error', ({ message }) => {
+                    log(`Account error: ${message}`);
+                    playerResultElement.innerHTML += `<p class="error">Account error: ${message}</p>`;
+                });
+                
+                player.addListener('playback_error', ({ message }) => {
+                    log(`Playback error: ${message}`);
+                    playerResultElement.innerHTML += `<p class="error">Playback error: ${message}</p>`;
+                });
+                
+                // Ready
+                player.addListener('ready', ({ device_id }) => {
+                    log(`Player ready with device ID: ${device_id}`);
+                    playerResultElement.innerHTML += `<p class="success">Player ready with device ID: ${device_id}</p>`;
+                    
+                    // Store the device ID
+                    localStorage.setItem('spotify_device_id', device_id);
+                });
+                
+                // Not Ready
+                player.addListener('not_ready', ({ device_id }) => {
+                    log(`Player not ready. Device ID: ${device_id}`);
+                    playerResultElement.innerHTML += `<p class="warning">Player not ready. Device ID: ${device_id}</p>`;
+                });
+                
+                // Connect to the player
+                player.connect().then(success => {
+                    if (success) {
+                        log('Successfully connected to Spotify Player');
+                        playerResultElement.innerHTML += '<p class="success">Successfully connected to Spotify Player</p>';
+                    } else {
+                        log('Failed to connect to Spotify Player');
+                        playerResultElement.innerHTML += '<p class="error">Failed to connect to Spotify Player</p>';
+                    }
+                });
+            };
+        });
+        
+        // Check for authentication response on page load
+        window.addEventListener('DOMContentLoaded', () => {
+            log('Page loaded');
+            if (!checkAuth()) {
+                log('No authentication response found');
+            }
+        });
+    </script>
+</body>
+</html>

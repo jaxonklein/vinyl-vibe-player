@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "windsurf-project",
+			"path": "."
+		}
+	],
+	"settings": {
+		"windsurf.autoExecutionPolicy": "turbo",
+		"files.readonlyExclude": {
+			"/": true
+		}
+	}
+}
