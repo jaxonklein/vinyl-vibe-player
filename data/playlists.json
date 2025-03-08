@@ -1,0 +1,3280 @@
+{
+  "demo_token": [
+    {
+      "id": "1740987588039",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "8",
+          "name": "Sweet Child O' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "5",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "3",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "9",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "7",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "6",
+          "name": "Material Girl",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "4",
+          "name": "I Wanna Dance with Somebody",
+          "artist": "Whitney Houston",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "10",
+          "name": "Thriller",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        },
+        {
+          "id": "2",
+          "name": "Sweet Dreams (Are Made of This)",
+          "artist": "Eurythmics",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        }
+      ],
+      "createdAt": "2025-03-03T07:39:48.039Z"
+    },
+    {
+      "id": "1740987584674",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Like a Virgin",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Thriller",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "I Wanna Dance with Somebody",
+          "artist": "Whitney Houston",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Footloose",
+          "artist": "Kenny Loggins",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:39:44.674Z"
+    },
+    {
+      "id": "1740987397570",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "456",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:456"
+        },
+        {
+          "id": "789",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:789"
+        },
+        {
+          "id": "123",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:123"
+        },
+        {
+          "id": "234",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:234"
+        },
+        {
+          "id": "567",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:567"
+        },
+        {
+          "id": "890",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:890"
+        },
+        {
+          "id": "345",
+          "name": "Hungry Like the Wolf",
+          "artist": "Duran Duran",
+          "albumCover": null,
+          "uri": "spotify:track:345"
+        },
+        {
+          "id": "678",
+          "name": "I Wanna Dance with Somebody",
+          "artist": "Whitney Houston",
+          "albumCover": null,
+          "uri": "spotify:track:678"
+        },
+        {
+          "id": "901",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:901"
+        },
+        {
+          "id": "012",
+          "name": "Like a Prayer",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:012"
+        }
+      ],
+      "createdAt": "2025-03-03T07:36:37.570Z"
+    },
+    {
+      "id": "1740987397281",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "10",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        },
+        {
+          "id": "7",
+          "name": "Don't You (Forget About Me)",
+          "artist": "Simple Minds",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "4",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "6",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "2",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "9",
+          "name": "Like a Prayer",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "8",
+          "name": "I Wanna Dance with Somebody",
+          "artist": "Whitney Houston",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "3",
+          "name": "Hungry Like the Wolf",
+          "artist": "Duran Duran",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "5",
+          "name": "Eye of the Tiger",
+          "artist": "Survivor",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        }
+      ],
+      "createdAt": "2025-03-03T07:36:37.281Z"
+    },
+    {
+      "id": "1740987299637",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "10",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        },
+        {
+          "id": "7",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "4",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "3",
+          "name": "Take on Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "6",
+          "name": "Hungry Like the Wolf",
+          "artist": "Duran Duran",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "2",
+          "name": "Like a Prayer",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "5",
+          "name": "Africa",
+          "artist": "Toto",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "8",
+          "name": "I Wanna Dance with Somebody",
+          "artist": "Whitney Houston",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        }
+      ],
+      "createdAt": "2025-03-03T07:34:59.637Z"
+    },
+    {
+      "id": "1740987298975",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "5",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "8",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "3",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "2",
+          "name": "Don't You Want Me",
+          "artist": "The Human League",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "7",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "6",
+          "name": "Like a Virgin",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "4",
+          "name": "Sweet Dreams (Are Made of This)",
+          "artist": "Eurythmics",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "9",
+          "name": "Another One Bites the Dust",
+          "artist": "Queen",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Jessie's Girl",
+          "artist": "Rick Springfield",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:34:58.975Z"
+    },
+    {
+      "id": "1740987022621",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Take on Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Don't You (Forget About Me)",
+          "artist": "Simple Minds",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "I Wanna Dance with Somebody",
+          "artist": "Whitney Houston",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Hungry Like the Wolf",
+          "artist": "Duran Duran",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Thriller",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:30:22.621Z"
+    },
+    {
+      "id": "1740987022423",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Like a Prayer",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "I Wanna Dance with Somebody",
+          "artist": "Whitney Houston",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Africa",
+          "artist": "Toto",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Take My Breath Away",
+          "artist": "Berlin",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:30:22.423Z"
+    },
+    {
+      "id": "1740986046830",
+      "description": "tropical",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Dance Monkey",
+          "artist": "Tones and I",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "4",
+          "name": "Shape of You",
+          "artist": "Ed Sheeran",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "7",
+          "name": "Cheap Thrills",
+          "artist": "Sia",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "10",
+          "name": "Ride It",
+          "artist": "Regard",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        },
+        {
+          "id": "15",
+          "name": "Blinding Lights",
+          "artist": "The Weeknd",
+          "albumCover": null,
+          "uri": "spotify:track:15"
+        },
+        {
+          "id": "20",
+          "name": "Loco Contigo",
+          "artist": "DJ Snake ft. J Balvin, Tyga",
+          "albumCover": null,
+          "uri": "spotify:track:20"
+        },
+        {
+          "id": "25",
+          "name": "La La La",
+          "artist": "Shakira",
+          "albumCover": null,
+          "uri": "spotify:track:25"
+        },
+        {
+          "id": "30",
+          "name": "I Don't Care",
+          "artist": "Ed Sheeran & Justin Bieber",
+          "albumCover": null,
+          "uri": "spotify:track:30"
+        },
+        {
+          "id": "35",
+          "name": "Taki Taki",
+          "artist": "DJ Snake ft. Selena Gomez, Ozuna, Cardi B",
+          "albumCover": null,
+          "uri": "spotify:track:35"
+        },
+        {
+          "id": "40",
+          "name": "Havana",
+          "artist": "Camila Cabello ft. Young Thug",
+          "albumCover": null,
+          "uri": "spotify:track:40"
+        }
+      ],
+      "createdAt": "2025-03-03T07:14:06.830Z"
+    },
+    {
+      "id": "1740985938536",
+      "description": "80s rock",
+      "tracks": [
+        {
+          "id": "15",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:15"
+        },
+        {
+          "id": "26",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:26"
+        },
+        {
+          "id": "38",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:38"
+        },
+        {
+          "id": "47",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:47"
+        },
+        {
+          "id": "54",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:54"
+        },
+        {
+          "id": "61",
+          "name": "Another One Bites the Dust",
+          "artist": "Queen",
+          "albumCover": null,
+          "uri": "spotify:track:61"
+        },
+        {
+          "id": "72",
+          "name": "Like a Virgin",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:72"
+        },
+        {
+          "id": "85",
+          "name": "Beat It",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:85"
+        },
+        {
+          "id": "93",
+          "name": "Every Rose Has Its Thorn",
+          "artist": "Poison",
+          "albumCover": null,
+          "uri": "spotify:track:93"
+        },
+        {
+          "id": "109",
+          "name": "Eye of the Tiger",
+          "artist": "Survivor",
+          "albumCover": null,
+          "uri": "spotify:track:109"
+        }
+      ],
+      "createdAt": "2025-03-03T07:12:18.536Z"
+    },
+    {
+      "id": "1740984810707",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Take on Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Don't You (Forget About Me)",
+          "artist": "Simple Minds",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Walking on Sunshine",
+          "artist": "Katrina and the Waves",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Africa",
+          "artist": "Toto",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Eye of the Tiger",
+          "artist": "Survivor",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T06:53:30.707Z"
+    },
+    {
+      "id": "1740984570595",
+      "description": "80s music",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Sweet Child O' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Like a Virgin",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Eye of the Tiger",
+          "artist": "Survivor",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Africa",
+          "artist": "Toto",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T06:49:30.595Z"
+    },
+    {
+      "id": "1740984492648",
+      "description": "classic rock",
+      "tracks": [
+        {
+          "id": "10",
+          "name": "Stairway to Heaven",
+          "artist": "Led Zeppelin",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        },
+        {
+          "id": "15",
+          "name": "Hotel California",
+          "artist": "Eagles",
+          "albumCover": null,
+          "uri": "spotify:track:15"
+        },
+        {
+          "id": "20",
+          "name": "Bohemian Rhapsody",
+          "artist": "Queen",
+          "albumCover": null,
+          "uri": "spotify:track:20"
+        },
+        {
+          "id": "25",
+          "name": "Paint It Black",
+          "artist": "The Rolling Stones",
+          "albumCover": null,
+          "uri": "spotify:track:25"
+        },
+        {
+          "id": "30",
+          "name": "Dream On",
+          "artist": "Aerosmith",
+          "albumCover": null,
+          "uri": "spotify:track:30"
+        },
+        {
+          "id": "35",
+          "name": "More Than a Feeling",
+          "artist": "Boston",
+          "albumCover": null,
+          "uri": "spotify:track:35"
+        },
+        {
+          "id": "40",
+          "name": "Sweet Home Alabama",
+          "artist": "Lynyrd Skynyrd",
+          "albumCover": null,
+          "uri": "spotify:track:40"
+        },
+        {
+          "id": "45",
+          "name": "Born to Be Wild",
+          "artist": "Steppenwolf",
+          "albumCover": null,
+          "uri": "spotify:track:45"
+        },
+        {
+          "id": "50",
+          "name": "All Along the Watchtower",
+          "artist": "Jimi Hendrix",
+          "albumCover": null,
+          "uri": "spotify:track:50"
+        },
+        {
+          "id": "55",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:55"
+        }
+      ],
+      "createdAt": "2025-03-03T06:48:12.648Z"
+    },
+    {
+      "id": "1740984058654",
+      "description": "a classic rock playlist",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Stairway to Heaven",
+          "artist": "Led Zeppelin",
+          "albumCover": null
+        },
+        {
+          "id": "2",
+          "name": "Hotel California",
+          "artist": "Eagles",
+          "albumCover": null
+        },
+        {
+          "id": "3",
+          "name": "Bohemian Rhapsody",
+          "artist": "Queen",
+          "albumCover": null
+        },
+        {
+          "id": "4",
+          "name": "Dream On",
+          "artist": "Aerosmith",
+          "albumCover": null
+        },
+        {
+          "id": "5",
+          "name": "Free Bird",
+          "artist": "Lynyrd Skynyrd",
+          "albumCover": null
+        },
+        {
+          "id": "6",
+          "name": "More Than a Feeling",
+          "artist": "Boston",
+          "albumCover": null
+        },
+        {
+          "id": "7",
+          "name": "Paint It Black",
+          "artist": "The Rolling Stones",
+          "albumCover": null
+        },
+        {
+          "id": "8",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null
+        },
+        {
+          "id": "9",
+          "name": "Sweet Home Alabama",
+          "artist": "Lynyrd Skynyrd",
+          "albumCover": null
+        },
+        {
+          "id": "10",
+          "name": "Comfortably Numb",
+          "artist": "Pink Floyd",
+          "albumCover": null
+        }
+      ],
+      "createdAt": "2025-03-03T06:40:58.654Z"
+    },
+    {
+      "id": "1740983983612",
+      "description": "test",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Testify",
+          "artist": "Rage Against the Machine",
+          "albumCover": null
+        },
+        {
+          "id": "2",
+          "name": "Test Drive",
+          "artist": "Joji",
+          "albumCover": null
+        },
+        {
+          "id": "3",
+          "name": "The Test That Stumped Them All",
+          "artist": "Dream Theater",
+          "albumCover": null
+        },
+        {
+          "id": "4",
+          "name": "Testing Me",
+          "artist": "Octavian feat. Skepta",
+          "albumCover": null
+        },
+        {
+          "id": "5",
+          "name": "Testarossa",
+          "artist": "Yung Lean",
+          "albumCover": null
+        },
+        {
+          "id": "6",
+          "name": "Test Drive",
+          "artist": "Rex Orange County",
+          "albumCover": null
+        },
+        {
+          "id": "7",
+          "name": "Test Pattern",
+          "artist": "The Thermals",
+          "albumCover": null
+        },
+        {
+          "id": "8",
+          "name": "Test Pilot",
+          "artist": "Modern Baseball",
+          "albumCover": null
+        },
+        {
+          "id": "9",
+          "name": "Test Me",
+          "artist": "Mick Jenkins",
+          "albumCover": null
+        },
+        {
+          "id": "10",
+          "name": "Testament",
+          "artist": "Vince Staples",
+          "albumCover": null
+        }
+      ],
+      "createdAt": "2025-03-03T06:39:43.612Z"
+    }
+  ],
+  "deb1b3926f": [
+    {
+      "id": "1740986938829",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Take on Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Don't You (Forget About Me)",
+          "artist": "Simple Minds",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Africa",
+          "artist": "Toto",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "I Wanna Dance with Somebody",
+          "artist": "Whitney Houston",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Another One Bites the Dust",
+          "artist": "Queen",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Walking on Sunshine",
+          "artist": "Katrina and the Waves",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:28:58.829Z"
+    },
+    {
+      "id": "1740986235675",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Take on Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Hungry Like the Wolf",
+          "artist": "Duran Duran",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "I Wanna Dance with Somebody",
+          "artist": "Whitney Houston",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Footloose",
+          "artist": "Kenny Loggins",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:17:15.675Z"
+    },
+    {
+      "id": "1740986099419",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Don't You (Forget About Me)",
+          "artist": "Simple Minds",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Take on Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Like a Prayer",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "I Wanna Dance with Somebody",
+          "artist": "Whitney Houston",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Africa",
+          "artist": "Toto",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:14:59.419Z"
+    },
+    {
+      "id": "1740985391330",
+      "description": "80s rock",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Another One Bites the Dust",
+          "artist": "Queen",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Eye of the Tiger",
+          "artist": "Survivor",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Rebel Yell",
+          "artist": "Billy Idol",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Walk This Way",
+          "artist": "Aerosmith",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Pour Some Sugar on Me",
+          "artist": "Def Leppard",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Hungry Like the Wolf",
+          "artist": "Duran Duran",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:03:11.330Z"
+    },
+    {
+      "id": "1740984995713",
+      "description": "80s music",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Like a Virgin",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Take on Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Jump",
+          "artist": "Van Halen",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Africa",
+          "artist": "Toto",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T06:56:35.713Z"
+    }
+  ],
+  "null": [
+    {
+      "id": "1740987002094",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Like a Prayer",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Thriller",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Everywhere",
+          "artist": "Fleetwood Mac",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:30:02.094Z"
+    }
+  ],
+  "540bd99504": [
+    {
+      "id": "1740988303976",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Like a Virgin",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Karma Chameleon",
+          "artist": "Culture Club",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Eye of the Tiger",
+          "artist": "Survivor",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:51:43.976Z"
+    },
+    {
+      "id": "1740988303455",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Take on Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Thriller",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Like a Prayer",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Eye of the Tiger",
+          "artist": "Survivor",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:51:43.455Z"
+    },
+    {
+      "id": "1740987969097",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "I Wanna Dance with Somebody",
+          "artist": "Whitney Houston",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Careless Whisper",
+          "artist": "George Michael",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Like a Prayer",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:46:09.097Z"
+    },
+    {
+      "id": "1740987968453",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "I Wanna Dance with Somebody",
+          "artist": "Whitney Houston",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Eye of the Tiger",
+          "artist": "Survivor",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Take My Breath Away",
+          "artist": "Berlin",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:46:08.453Z"
+    },
+    {
+      "id": "1740987896582",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Take on Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Thriller",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Footloose",
+          "artist": "Kenny Loggins",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Like a Virgin",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:44:56.582Z"
+    },
+    {
+      "id": "1740987896364",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Don't You Want Me",
+          "artist": "The Human League",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Eye of the Tiger",
+          "artist": "Survivor",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Africa",
+          "artist": "Toto",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Wake Me Up Before You Go-Go",
+          "artist": "Wham!",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:44:56.364Z"
+    },
+    {
+      "id": "1740987883678",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Take on Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Like a Prayer",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Purple Rain",
+          "artist": "Prince",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Eye of the Tiger",
+          "artist": "Survivor",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:44:43.678Z"
+    },
+    {
+      "id": "1740987883636",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Like a Virgin",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Africa",
+          "artist": "Toto",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Thriller",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "I Wanna Dance with Somebody",
+          "artist": "Whitney Houston",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:44:43.636Z"
+    }
+  ],
+  "Error gene": [
+    {
+      "id": "1740988080615",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Like a Virgin",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Wake Me Up Before You Go-Go",
+          "artist": "Wham!",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Thriller",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:48:00.616Z"
+    },
+    {
+      "id": "1740988079920",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Take on Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Like a Virgin",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Africa",
+          "artist": "Toto",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Eye of the Tiger",
+          "artist": "Survivor",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:47:59.920Z"
+    }
+  ],
+  "BQDSp0c_t3": [
+    {
+      "id": "1740988382350",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Like a Virgin",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Don't You Want Me",
+          "artist": "The Human League",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Walking on Sunshine",
+          "artist": "Katrina and the Waves",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Africa",
+          "artist": "Toto",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:53:02.350Z"
+    },
+    {
+      "id": "1740988378951",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Take on Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Like a Prayer",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Eye of the Tiger",
+          "artist": "Survivor",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Africa",
+          "artist": "Toto",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T07:52:58.951Z"
+    }
+  ],
+  "BQCO9pJYMz": [
+    {
+      "id": "1740993890873",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Don't You Want Me",
+          "artist": "The Human League",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Time After Time",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Take On Me",
+          "artist": "A-ha",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "Like a Virgin",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Hungry Like the Wolf",
+          "artist": "Duran Duran",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Sweet Dreams (Are Made of This)",
+          "artist": "Eurythmics",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T09:24:50.873Z"
+    },
+    {
+      "id": "1740993890295",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "1",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "albumCover": null,
+          "uri": "spotify:track:1"
+        },
+        {
+          "id": "2",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "albumCover": null,
+          "uri": "spotify:track:2"
+        },
+        {
+          "id": "3",
+          "name": "Sweet Child o' Mine",
+          "artist": "Guns N' Roses",
+          "albumCover": null,
+          "uri": "spotify:track:3"
+        },
+        {
+          "id": "4",
+          "name": "Like a Prayer",
+          "artist": "Madonna",
+          "albumCover": null,
+          "uri": "spotify:track:4"
+        },
+        {
+          "id": "5",
+          "name": "Every Breath You Take",
+          "artist": "The Police",
+          "albumCover": null,
+          "uri": "spotify:track:5"
+        },
+        {
+          "id": "6",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "albumCover": null,
+          "uri": "spotify:track:6"
+        },
+        {
+          "id": "7",
+          "name": "I Wanna Dance with Somebody",
+          "artist": "Whitney Houston",
+          "albumCover": null,
+          "uri": "spotify:track:7"
+        },
+        {
+          "id": "8",
+          "name": "Girls Just Want to Have Fun",
+          "artist": "Cyndi Lauper",
+          "albumCover": null,
+          "uri": "spotify:track:8"
+        },
+        {
+          "id": "9",
+          "name": "Don't Stop Believin'",
+          "artist": "Journey",
+          "albumCover": null,
+          "uri": "spotify:track:9"
+        },
+        {
+          "id": "10",
+          "name": "Africa",
+          "artist": "Toto",
+          "albumCover": null,
+          "uri": "spotify:track:10"
+        }
+      ],
+      "createdAt": "2025-03-03T09:24:50.295Z"
+    }
+  ],
+  "BQBmRLjFhQ": [
+    {
+      "id": "1740994562223",
+      "description": "sofi tukker",
+      "tracks": [
+        {
+          "id": "5p6meO1YqT2oN9MhBPZgkz",
+          "name": "Drinkee",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:5p6meO1YqT2oN9MhBPZgkz"
+        },
+        {
+          "id": "4sD3jIbVJ9XGfWlT7VnBdY",
+          "name": "Best Friend (feat. NERVO, The Knocks & Alisa Ueno)",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:4sD3jIbVJ9XGfWlT7VnBdY"
+        },
+        {
+          "id": "3hU5y2yG2CvSkSEw0aCZCJ",
+          "name": "Batshit",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:3hU5y2yG2CvSkSEw0aCZCJ"
+        },
+        {
+          "id": "4QlQ0jQcwo2xgED48q6GBO",
+          "name": "Fantasy",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:4QlQ0jQcwo2xgED48q6GBO"
+        },
+        {
+          "id": "6wQlQrTY5mVS8EGaFZVwZt",
+          "name": "House Arrest",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:6wQlQrTY5mVS8EGaFZVwZt"
+        },
+        {
+          "id": "6bNiaj0KmKLq1QJ8fYd6b4",
+          "name": "Swing",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:6bNiaj0KmKLq1QJ8fYd6b4"
+        },
+        {
+          "id": "2q8lfx0H3nYJ9gUzOc5Hl2",
+          "name": "Purple Hat",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:2q8lfx0H3nYJ9gUzOc5Hl2"
+        },
+        {
+          "id": "27GmP9AWRs744SzKcpJsTZ",
+          "name": "Energia",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:27GmP9AWRs744SzKcpJsTZ"
+        },
+        {
+          "id": "4W0uQ2ZlPd1Ri5tS2mZlKt",
+          "name": "Mi Rumba",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:4W0uQ2ZlPd1Ri5tS2mZlKt"
+        },
+        {
+          "id": "2Z4K49xj9q5GS3c23vfSxW",
+          "name": "Like This",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:2Z4K49xj9q5GS3c23vfSxW"
+        }
+      ],
+      "createdAt": "2025-03-03T09:36:02.223Z"
+    },
+    {
+      "id": "1740994528504",
+      "description": "music like purple hat",
+      "tracks": [
+        {
+          "id": "3hBBKuWJqxjRlPq5pC2D8s",
+          "name": "Purple Hat",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:3hBBKuWJqxjRlPq5pC2D8s"
+        },
+        {
+          "id": "1j4kHkkpqZRBwE0A4CN4Yv",
+          "name": "Best Friend (feat. NERVO, The Knocks & Alisa Ueno)",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:1j4kHkkpqZRBwE0A4CN4Yv"
+        },
+        {
+          "id": "7lM3bUjyWlCtTnTzZP8gLV",
+          "name": "Batshit",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:7lM3bUjyWlCtTnTzZP8gLV"
+        },
+        {
+          "id": "2QjOHCTQ1Jl3zawyGU2W4R",
+          "name": "Drinkee",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:2QjOHCTQ1Jl3zawyGU2W4R"
+        },
+        {
+          "id": "4OJzVQsFeQ3PJCt0lOeV0s",
+          "name": "Fantasy",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:4OJzVQsFeQ3PJCt0lOeV0s"
+        },
+        {
+          "id": "2zrJlD3VSMtPjQJ1lVZGhI",
+          "name": "Swing",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:2zrJlD3VSMtPjQJ1lVZGhI"
+        },
+        {
+          "id": "4r4B9Z9OJ6Xm1fN6DRLjf4",
+          "name": "Johny",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:4r4B9Z9OJ6Xm1fN6DRLjf4"
+        },
+        {
+          "id": "2WzP1CveMv0gYqahM1P05o",
+          "name": "Playa Grande",
+          "artist": "Sofi Tukker, Bomba Estéreo",
+          "uri": "spotify:track:2WzP1CveMv0gYqahM1P05o"
+        },
+        {
+          "id": "4wQnG4kqUwVZdUvY9h7m8R",
+          "name": "Good Time Girl",
+          "artist": "Sofi Tukker, Charlie Barker",
+          "uri": "spotify:track:4wQnG4kqUwVZdUvY9h7m8R"
+        },
+        {
+          "id": "4oP7NGdNRGQnQXeW5J1R1w",
+          "name": "Purple Hat - Dillon Francis Remix",
+          "artist": "Sofi Tukker, Dillon Francis",
+          "uri": "spotify:track:4oP7NGdNRGQnQXeW5J1R1w"
+        }
+      ],
+      "createdAt": "2025-03-03T09:35:28.504Z"
+    },
+    {
+      "id": "1740994407819",
+      "description": "80s",
+      "tracks": [
+        {
+          "id": "2WfaOiMkCvy7F5fcp2zZ8L",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "uri": "spotify:track:2WfaOiMkCvy7F5fcp2zZ8L"
+        },
+        {
+          "id": "1TfqLAPs4K3s2rJMoCokcS",
+          "name": "Sweet Dreams (Are Made of This)",
+          "artist": "Eurythmics",
+          "uri": "spotify:track:1TfqLAPs4K3s2rJMoCokcS"
+        },
+        {
+          "id": "0J6mQxEZnlRt9ymzFntA6z",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "uri": "spotify:track:0J6mQxEZnlRt9ymzFntA6z"
+        },
+        {
+          "id": "5P68BrqKFCpNXaYLBRTt2C",
+          "name": "Waterloo",
+          "artist": "ABBA",
+          "uri": "spotify:track:5P68BrqKFCpNXaYLBRTt2C"
+        },
+        {
+          "id": "1YQGBu0P5NhxVETYrklthE",
+          "name": "Superstition",
+          "artist": "Stevie Wonder",
+          "uri": "spotify:track:1YQGBu0P5NhxVETYrklthE"
+        },
+        {
+          "id": "7s25THrKz86DM225dOYwnr",
+          "name": "Respect",
+          "artist": "Aretha Franklin",
+          "uri": "spotify:track:7s25THrKz86DM225dOYwnr"
+        },
+        {
+          "id": "5ChkMS8OtdzJeqyybCc9R5",
+          "name": "Billie Jean",
+          "artist": "Michael Jackson",
+          "uri": "spotify:track:5ChkMS8OtdzJeqyybCc9R5"
+        },
+        {
+          "id": "7tFiyTwD0nx5a1eklYtX2J",
+          "name": "Bohemian Rhapsody",
+          "artist": "Queen",
+          "uri": "spotify:track:7tFiyTwD0nx5a1eklYtX2J"
+        },
+        {
+          "id": "40riOy7x9W7GXjyGp4pjAv",
+          "name": "Hotel California",
+          "artist": "Eagles",
+          "uri": "spotify:track:40riOy7x9W7GXjyGp4pjAv"
+        },
+        {
+          "id": "3AhXZa8sUQht0UEdBJgpGc",
+          "name": "Like a Rolling Stone",
+          "artist": "Bob Dylan",
+          "uri": "spotify:track:3AhXZa8sUQht0UEdBJgpGc"
+        }
+      ],
+      "createdAt": "2025-03-03T09:33:27.819Z"
+    }
+  ],
+  "BQDAHgcNkz": [
+    {
+      "id": "1740994654186",
+      "description": "music like purple hat",
+      "tracks": [
+        {
+          "id": "3lXRZa4Jg1O4qy2aRyT2Uz",
+          "name": "Purple Hat",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:3lXRZa4Jg1O4qy2aRyT2Uz"
+        },
+        {
+          "id": "2u9GwAl9TbqdwzFvTQlLbI",
+          "name": "Best Friend (feat. NERVO, The Knocks & Alisa Ueno)",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:2u9GwAl9TbqdwzFvTQlLbI"
+        },
+        {
+          "id": "6jD8Bby9S6v0YtGkaQI9mW",
+          "name": "Playa Grande",
+          "artist": "Sofi Tukker, Bomba Estéreo",
+          "uri": "spotify:track:6jD8Bby9S6v0YtGkaQI9mW"
+        },
+        {
+          "id": "4tZwfgrHOc3mvqYlEYSvVi",
+          "name": "Closer",
+          "artist": "Lemaitre, Jennie A.",
+          "uri": "spotify:track:4tZwfgrHOc3mvqYlEYSvVi"
+        },
+        {
+          "id": "2R4po3W92pZQeL3xt9U0Q1",
+          "name": "Let Me Go (with Alesso, Florida Georgia Line & watt)",
+          "artist": "Hailee Steinfeld, Alesso, Florida Georgia Line, watt",
+          "uri": "spotify:track:2R4po3W92pZQeL3xt9U0Q1"
+        },
+        {
+          "id": "2y3lSf5V8CzGf1uZ9pKwDQ",
+          "name": "Good Time Girl",
+          "artist": "Sofi Tukker, Charlie Barker",
+          "uri": "spotify:track:2y3lSf5V8CzGf1uZ9pKwDQ"
+        },
+        {
+          "id": "0B0v6Zgob8H4DyIqGQ6G5X",
+          "name": "Fantasy",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:0B0v6Zgob8H4DyIqGQ6G5X"
+        },
+        {
+          "id": "4ePmZw7xHfBx7Bg1n9KoT2",
+          "name": "Swing",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:4ePmZw7xHfBx7Bg1n9KoT2"
+        },
+        {
+          "id": "7qiZfU4dY1lWllzX7mPBI3",
+          "name": "Shape of You",
+          "artist": "Ed Sheeran",
+          "uri": "spotify:track:7qiZfU4dY1lWllzX7mPBI3"
+        },
+        {
+          "id": "1diS6nkxMQc3wwC4G1j0bh",
+          "name": "Roses",
+          "artist": "SAINt JHN",
+          "uri": "spotify:track:1diS6nkxMQc3wwC4G1j0bh"
+        }
+      ],
+      "createdAt": "2025-03-03T09:37:34.186Z"
+    }
+  ],
+  "BQDDi-97Mo": [
+    {
+      "id": "1740996195458",
+      "description": "sofi tukker",
+      "tracks": [
+        {
+          "id": "6wUfCQr7Z8XZ8BQeMSyJqo",
+          "name": "Drinkee",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:6wUfCQr7Z8XZ8BQeMSyJqo"
+        },
+        {
+          "id": "5kqIPrATaW3p0lMh7NcaKm",
+          "name": "Best Friend (feat. NERVO, The Knocks & Alisa Ueno)",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:5kqIPrATaW3p0lMh7NcaKm"
+        },
+        {
+          "id": "2M9ULmQwab6X9J1z6ZSiTJ",
+          "name": "Purple Hat",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:2M9ULmQwab6X9J1z6ZSiTJ"
+        },
+        {
+          "id": "6gJYp5quqKQq8L3ZZk4lV0",
+          "name": "Batshit",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:6gJYp5quqKQq8L3ZZk4lV0"
+        },
+        {
+          "id": "2iCkHj1h8tK6eTn4KSLVUe",
+          "name": "Fantasy",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:2iCkHj1h8tK6eTn4KSLVUe"
+        },
+        {
+          "id": "7bNCTW3tVFcQXGwDyZu48t",
+          "name": "Swing",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:7bNCTW3tVFcQXGwDyZu48t"
+        },
+        {
+          "id": "7h9Ym9PnHl3N1HdJPn1f5N",
+          "name": "Energia",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:7h9Ym9PnHl3N1HdJPn1f5N"
+        },
+        {
+          "id": "3R1X34MbtN7N1ZDPOyj5dE",
+          "name": "Good Time Girl (feat. Charlie Barker)",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:3R1X34MbtN7N1ZDPOyj5dE"
+        },
+        {
+          "id": "5IeGzDCaYyIgS9A5oIq4q8",
+          "name": "Hey Lion",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:5IeGzDCaYyIgS9A5oIq4q8"
+        },
+        {
+          "id": "3DQ3m2sMv6rXBJaFjVY1kX",
+          "name": "My Body Hurts",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:3DQ3m2sMv6rXBJaFjVY1kX"
+        }
+      ],
+      "createdAt": "2025-03-03T10:03:15.458Z"
+    },
+    {
+      "id": "1740994910534",
+      "description": "music like purple hat, but not only sofi tukker",
+      "tracks": [
+        {
+          "id": "4JpKVNYnVcJ8tuMKjAj50A",
+          "name": "Say So",
+          "artist": "Doja Cat",
+          "uri": "spotify:track:4JpKVNYnVcJ8tuMKjAj50A"
+        },
+        {
+          "id": "42YM9sJdYfGpR5oQnM2TmU",
+          "name": "Levitating (feat. DaBaby)",
+          "artist": "Dua Lipa",
+          "uri": "spotify:track:42YM9sJdYfGpR5oQnM2TmU"
+        },
+        {
+          "id": "0EhpEsp4L0oRGM0vmeaN5e",
+          "name": "Adore You",
+          "artist": "Harry Styles",
+          "uri": "spotify:track:0EhpEsp4L0oRGM0vmeaN5e"
+        },
+        {
+          "id": "4vjpLMyL3ZO6aphdYr8XYh",
+          "name": "Physical",
+          "artist": "Dua Lipa",
+          "uri": "spotify:track:4vjpLMyL3ZO6aphdYr8XYh"
+        },
+        {
+          "id": "6UelLqGlWMcVH1E5c4H7lY",
+          "name": "Watermelon Sugar",
+          "artist": "Harry Styles",
+          "uri": "spotify:track:6UelLqGlWMcVH1E5c4H7lY"
+        },
+        {
+          "id": "7szuecWAPwGoV1e5vGu8tl",
+          "name": "Don't Start Now",
+          "artist": "Dua Lipa",
+          "uri": "spotify:track:7szuecWAPwGoV1e5vGu8tl"
+        },
+        {
+          "id": "3jjujdWJ72nww5eGnfs2E7",
+          "name": "Blinding Lights",
+          "artist": "The Weeknd",
+          "uri": "spotify:track:3jjujdWJ72nww5eGnfs2E7"
+        },
+        {
+          "id": "5nujrmhLynf4yMoMtj8AQF",
+          "name": "Save Your Tears",
+          "artist": "The Weeknd",
+          "uri": "spotify:track:5nujrmhLynf4yMoMtj8AQF"
+        },
+        {
+          "id": "2kJwzbxV2ppxnQoYw4GLBZ",
+          "name": "Levitating",
+          "artist": "Dua Lipa",
+          "uri": "spotify:track:2kJwzbxV2ppxnQoYw4GLBZ"
+        },
+        {
+          "id": "6wJYhPfqk3KGhHRG76WzOh",
+          "name": "Levitating (The Blessed Madonna Remix) [feat. Madonna and Missy Elliott]",
+          "artist": "Dua Lipa",
+          "uri": "spotify:track:6wJYhPfqk3KGhHRG76WzOh"
+        }
+      ],
+      "createdAt": "2025-03-03T09:41:50.534Z"
+    }
+  ],
+  "BQBS3NRnPn": [
+    {
+      "id": "1741010692904",
+      "description": "purple hat like music",
+      "tracks": [
+        {
+          "id": "3AH3l5lMqFE4p04dY5s9jO",
+          "name": "Purple Hat",
+          "artist": "Sofia Carson",
+          "uri": "spotify:track:3AH3l5lMqFE4p04dY5s9jO"
+        },
+        {
+          "id": "1wJRveJZvUcQ0C6GTTkV0D",
+          "name": "Like That",
+          "artist": "Doja Cat",
+          "uri": "spotify:track:1wJRveJZvUcQ0C6GTTkV0D"
+        },
+        {
+          "id": "3ZCTVFBt2Brf31RLEnCkWJ",
+          "name": "Bad Guy",
+          "artist": "Billie Eilish",
+          "uri": "spotify:track:3ZCTVFBt2Brf31RLEnCkWJ"
+        },
+        {
+          "id": "5hVghJ4KaYES3BFUATCYn0",
+          "name": "RITMO (Bad Boys For Life)",
+          "artist": "The Black Eyed Peas",
+          "uri": "spotify:track:5hVghJ4KaYES3BFUATCYn0"
+        },
+        {
+          "id": "1uNFoZAHBGtllmzznpCI3s",
+          "name": "BLACKPINK",
+          "artist": "How You Like That",
+          "uri": "spotify:track:1uNFoZAHBGtllmzznpCI3s"
+        },
+        {
+          "id": "4nK5YrxbMGZstTLbvj6Gxw",
+          "name": "Dance Monkey",
+          "artist": "Tones And I",
+          "uri": "spotify:track:4nK5YrxbMGZstTLbvj6Gxw"
+        },
+        {
+          "id": "4vjpLMyL3ZO6aphdYr8XYt",
+          "name": "My Oh My (feat. DaBaby)",
+          "artist": "Camila Cabello",
+          "uri": "spotify:track:4vjpLMyL3ZO6aphdYr8XYt"
+        },
+        {
+          "id": "6wJYhPfqk3KGhHRG76WzOh",
+          "name": "Don't Start Now",
+          "artist": "Dua Lipa",
+          "uri": "spotify:track:6wJYhPfqk3KGhHRG76WzOh"
+        },
+        {
+          "id": "3HVWdVOQ0ZA45FuZGSfvns",
+          "name": "Uptown Funk",
+          "artist": "Mark Ronson",
+          "uri": "spotify:track:3HVWdVOQ0ZA45FuZGSfvns"
+        },
+        {
+          "id": "1Cv1YLb4q0RzL6pybtaMLo",
+          "name": "Levitating",
+          "artist": "Dua Lipa",
+          "uri": "spotify:track:1Cv1YLb4q0RzL6pybtaMLo"
+        }
+      ],
+      "createdAt": "2025-03-03T14:04:52.904Z"
+    },
+    {
+      "id": "1741008605458",
+      "description": "80s hair band",
+      "tracks": [
+        {
+          "id": "7o2CTH4ctstm8TNelqjb51",
+          "name": "Sweet Child O' Mine",
+          "artist": "Guns N' Roses",
+          "uri": "spotify:track:7o2CTH4ctstm8TNelqjb51"
+        },
+        {
+          "id": "0J6mQxEZnlRt9ymzFntA6z",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "uri": "spotify:track:0J6mQxEZnlRt9ymzFntA6z"
+        },
+        {
+          "id": "1TfqLAPs4K3s2rJMoCokcS",
+          "name": "Sweet Dreams (Are Made of This)",
+          "artist": "Eurythmics",
+          "uri": "spotify:track:1TfqLAPs4K3s2rJMoCokcS"
+        },
+        {
+          "id": "7s25THrKz86DM225dOYwnr",
+          "name": "Respect",
+          "artist": "Aretha Franklin",
+          "uri": "spotify:track:7s25THrKz86DM225dOYwnr"
+        },
+        {
+          "id": "5P68BrqKFCpNXaYLBRTt2C",
+          "name": "Waterloo",
+          "artist": "ABBA",
+          "uri": "spotify:track:5P68BrqKFCpNXaYLBRTt2C"
+        },
+        {
+          "id": "0GjEhVFGZW8afUYGChu3Rr",
+          "name": "Dancing Queen",
+          "artist": "ABBA",
+          "uri": "spotify:track:0GjEhVFGZW8afUYGChu3Rr"
+        },
+        {
+          "id": "2WfaOiMkCvy7F5fcp2zZ8L",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "uri": "spotify:track:2WfaOiMkCvy7F5fcp2zZ8L"
+        },
+        {
+          "id": "5ghIJDpPoe3CfHMGu71E6T",
+          "name": "Smells Like Teen Spirit",
+          "artist": "Nirvana",
+          "uri": "spotify:track:5ghIJDpPoe3CfHMGu71E6T"
+        },
+        {
+          "id": "4pbG9SUmWIvsROVLF0zF9s",
+          "name": "I Want to Hold Your Hand",
+          "artist": "The Beatles",
+          "uri": "spotify:track:4pbG9SUmWIvsROVLF0zF9s"
+        },
+        {
+          "id": "7pKfPomDEeI4TPT6EOYjn9",
+          "name": "Imagine",
+          "artist": "John Lennon",
+          "uri": "spotify:track:7pKfPomDEeI4TPT6EOYjn9"
+        }
+      ],
+      "createdAt": "2025-03-03T13:30:05.458Z"
+    }
+  ],
+  "BQAr9S1HqQ": [
+    {
+      "id": "1741010730497",
+      "description": "purple hat like music",
+      "tracks": [
+        {
+          "id": "2WfaOiMkCvy7F5fcp2zZ8L",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "uri": "spotify:track:2WfaOiMkCvy7F5fcp2zZ8L"
+        },
+        {
+          "id": "0J6mQxEZnlRt9ymzFntA6z",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "uri": "spotify:track:0J6mQxEZnlRt9ymzFntA6z"
+        },
+        {
+          "id": "1TfqLAPs4K3s2rJMoCokcS",
+          "name": "Sweet Dreams (Are Made of This)",
+          "artist": "Eurythmics",
+          "uri": "spotify:track:1TfqLAPs4K3s2rJMoCokcS"
+        },
+        {
+          "id": "4eHbdreAnSOrDDsFfc4Fpm",
+          "name": "I Will Always Love You",
+          "artist": "Whitney Houston",
+          "uri": "spotify:track:4eHbdreAnSOrDDsFfc4Fpm"
+        },
+        {
+          "id": "1YQGBu0P5NhxVETYrklthE",
+          "name": "Superstition",
+          "artist": "Stevie Wonder",
+          "uri": "spotify:track:1YQGBu0P5NhxVETYrklthE"
+        },
+        {
+          "id": "5P68BrqKFCpNXaYLBRTt2C",
+          "name": "Waterloo",
+          "artist": "ABBA",
+          "uri": "spotify:track:5P68BrqKFCpNXaYLBRTt2C"
+        }
+      ],
+      "createdAt": "2025-03-03T14:05:30.497Z"
+    }
+  ]
+}

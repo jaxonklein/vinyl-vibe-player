@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinyl Vibe Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Spotify Web Playback SDK -->
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    <script>
+        window.onSpotifyWebPlaybackSDKReady = () => {
+            console.log('Spotify Web Playback SDK Ready');
+            window.spotifySDKReady = true;
+            // Dispatch an event that our app can listen for
+            window.dispatchEvent(new Event('spotify-sdk-ready'));
+            
+            // Initialize player immediately if we have a token
+            const accessToken = localStorage.getItem('spotify_access_token');
+            if (accessToken) {
+                console.log('Access token found, initializing player immediately');
+                initializeSpotifyPlayer(accessToken);
+            }
+        };
+        
+        // Function to initialize the Spotify player
+        function initializeSpotifyPlayer(token) {
+            console.log('Initializing Spotify player with token');
+            
+            if (!window.Spotify) {
+                console.error('Spotify SDK not loaded');
+                return;
+            }
+            
+            const player = new Spotify.Player({
+                name: 'Vinyl Vibe Web Player',
+                getOAuthToken: cb => { cb(token); },
+                volume: 0.5
+            });
+            
+            // Error handling
+            player.addListener('initialization_error', ({ message }) => {
+                console.error('Spotify player initialization error:', message);
+                alert(`Spotify player initialization error: ${message}`);
+            });
+            
+            player.addListener('authentication_error', ({ message }) => {
+                console.error('Spotify player authentication error:', message);
+                alert(`Spotify authentication error: ${message}. Try reconnecting to Spotify.`);
+            });
+            
+            player.addListener('account_error', ({ message }) => {
+                console.error('Spotify player account error:', message);
+                alert(`Spotify account error: ${message}. This usually means you need a Spotify Premium account.`);
+            });
+            
+            player.addListener('playback_error', ({ message }) => {
+                console.error('Spotify player playback error:', message);
+                alert(`Spotify playback error: ${message}`);
+            });
+            
+            // Ready
+            player.addListener('ready', ({ device_id }) => {
+                console.log('Spotify player ready with device ID:', device_id);
+                localStorage.setItem('spotify_device_id', device_id);
+                // Removed alert message for better user experience
+            });
+            
+            // Not Ready
+            player.addListener('not_ready', ({ device_id }) => {
+                console.error('Spotify player not ready:', device_id);
+            });
+            
+            // Connect to the player
+            player.connect().then(success => {
+                if (success) {
+                    console.log('Successfully connected to Spotify Player');
+                } else {
+                    console.error('Failed to connect to Spotify Player');
+                    alert('Failed to connect to Spotify Player. Make sure you have a Spotify Premium account.');
+                }
+            });
+        }
+        
+        // Helper function to get the leftmost song in the carousel
+        function getLeftmostSong() {
+            // Get all song cards in the carousel (excluding the welcome card and add seed button)
+            const songCards = Array.from(document.querySelectorAll('.carousel .song-card'));
+            
+            if (songCards.length === 0) {
+                return null;
+            }
+            
+            // The first song card is the leftmost one
+            const leftmostCard = songCards[0];
+            
+            // Extract song and artist information from the card
+            // First try to get the name and artist directly
+            let songName = leftmostCard.querySelector('.song-name')?.textContent;
+            let artistName = leftmostCard.querySelector('.artist-name')?.textContent;
+            
+            // If we can't find those elements, try to parse from the card's content
+            if (!songName || !artistName) {
+                // Try to find elements with "Name:" and "Artist:" prefixes
+                const nameElements = Array.from(leftmostCard.querySelectorAll('*')).filter(el => 
+                    el.textContent && el.textContent.trim().startsWith('Name:'));
+                const artistElements = Array.from(leftmostCard.querySelectorAll('*')).filter(el => 
+                    el.textContent && el.textContent.trim().startsWith('Artist:'));
+                
+                if (nameElements.length > 0) {
+                    const nameText = nameElements[0].textContent.trim();
+                    songName = nameText.replace('Name:', '').trim();
+                }
+                
+                if (artistElements.length > 0) {
+                    const artistText = artistElements[0].textContent.trim();
+                    artistName = artistText.replace('Artist:', '').trim();
+                }
+            }
+            
+            // Log what we found for debugging
+            console.log('Found song in leftmost position:', { songName, artistName });
+            
+            return {
+                song: songName || 'Unknown Song',
+                artist: artistName || 'Unknown Artist'
+            };
+        }
+        
+        // Debug function to test direct Spotify playback
+        function testSpotifyPlayback() {
+            console.log('Testing direct Spotify playback');
+            
+            // Add to debug panel
+            const debugOutput = document.getElementById('debug-output');
+            if (debugOutput) {
+                const timestamp = new Date().toISOString().substr(11, 8);
+                debugOutput.innerHTML += `[${timestamp}] [Test] Starting Spotify playback test\n`;
+            }
+            
+            // Get the leftmost song in the carousel
+            const leftmostSong = getLeftmostSong();
+            if (!leftmostSong) {
+                alert('No song found in the leftmost position. Please add songs to your collection first.');
+                logToDebug('No song found in the leftmost position');
+                return;
+            }
+            
+            logToDebug(`Found leftmost song: ${leftmostSong.song} by ${leftmostSong.artist}`);
+            
+            const accessToken = localStorage.getItem('spotify_access_token');
+            if (!accessToken) {
+                console.error('No Spotify access token found');
+                alert('Please connect to Spotify first');
+                logToDebug('No Spotify access token found');
+                return;
+            }
+            
+            logToDebug(`Access token: ${accessToken.substring(0, 10)}...`);
+            
+            // First check if we have a web player available
+            const deviceId = localStorage.getItem('spotify_device_id');
+            if (!deviceId) {
+                alert('No Spotify device found. Please wait a few seconds for the player to initialize, or open Spotify on another device.');
+                console.error('No device ID found');
+                logToDebug('No Spotify device ID found');
+                return;
+            }
+            
+            logToDebug(`Device ID: ${deviceId}`);
+            
+            // Try to search for and play the leftmost song instead of hardcoded track
+            const songName = leftmostSong.song;
+            const artistName = leftmostSong.artist;
+            
+            // For better Spotify search results, clean up the song name and artist
+            // Remove any "feat." or "ft." parts from the song name
+            const cleanSongName = songName.split('(')[0].split('-')[0].split('feat.')[0].split('ft.')[0].trim();
+            // Remove any parentheses or brackets from the artist name
+            const cleanArtistName = artistName.split('(')[0].split('[')[0].trim();
+            
+            logToDebug(`Original song info: "${songName}" by "${artistName}"`);
+            logToDebug(`Cleaned song info for search: "${cleanSongName}" by "${cleanArtistName}"`);
+            
+            console.log(`Searching for "${cleanSongName}" by "${cleanArtistName}"`);
+            
+            // Special case handling for known songs that might be difficult to find
+            let searchQuery = `track:${cleanSongName} artist:${cleanArtistName}`;
+            
+            // Special case for "Take Me Home, Country Roads" which might be listed differently in Spotify
+            if (cleanSongName.toLowerCase().includes("take me home, country roads") || 
+                cleanSongName.toLowerCase().includes("country roads")) {
+                searchQuery = "track:Country Roads artist:John Denver";
+                logToDebug(`Using special search query for Country Roads: ${searchQuery}`);
+            }
+            
+            // First get all available devices to confirm our device is visible to Spotify
+            fetch('https://api.spotify.com/v1/me/player/devices', {
+                headers: {
+                    'Authorization': `Bearer ${accessToken}`
+                }
+            })
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP error ${response.status}`);
+                return response.json();
+            })
+            .then(data => {
+                logToDebug(`Available devices: ${JSON.stringify(data)}`);
+                
+                if (!data.devices || data.devices.length === 0) {
+                    logToDebug('No devices returned from Spotify API');
+                    alert('No available Spotify devices found. Please open Spotify on a device first.');
+                    throw new Error('No devices available');
+                }
+                
+                // Check if our device is in the list
+                const ourDevice = data.devices.find(d => d.id === deviceId);
+                if (!ourDevice) {
+                    logToDebug(`Our device ID ${deviceId} not found in available devices`);
+                    alert(`Web player device not found in available devices. Try clicking "Init Player" again.`);
+                } else {
+                    logToDebug(`Our device found: ${ourDevice.name} (${ourDevice.id})`);
+                }
+                
+                // Continue with search
+                return fetch(`https://api.spotify.com/v1/search?q=${encodeURIComponent(searchQuery)}&type=track&limit=1`, {
+                    headers: {
+                        'Authorization': `Bearer ${accessToken}`
+                    }
+                });
+            })
+            .then(response => {
+                if (!response.ok) throw new Error(`Search failed: ${response.status}`);
+                return response.json();
+            })
+            .then(data => {
+                logToDebug(`Search results: ${JSON.stringify(data)}`);
+                console.log('Search results:', data);
+                
+                // Check if we got any tracks
+                if (data.tracks.items.length > 0) {
+                    const track = data.tracks.items[0];
+                    logToDebug(`Found track: ${track.name} by ${track.artists[0].name} (${track.uri})`);
+                    
+                    // Play the track
+                    return fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
+                        method: 'PUT',
+                        headers: {
+                            'Authorization': `Bearer ${accessToken}`,
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            uris: [track.uri]
+                        })
+                    });
+                } else {
+                    // If the first search fails, try a more general search without the track: and artist: prefixes
+                    logToDebug(`No tracks found with specific search. Trying more general search...`);
+                    
+                    return fetch(`https://api.spotify.com/v1/search?q=${encodeURIComponent(`${cleanSongName} ${cleanArtistName}`)}&type=track&limit=5`, {
+                        headers: {
+                            'Authorization': `Bearer ${accessToken}`
+                        }
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        // Check if we got any tracks
+                        if (data.tracks && data.tracks.items.length > 0) {
+                            const track = data.tracks.items[0];
+                            logToDebug(`Found track with general search: ${track.name} by ${track.artists[0].name} (${track.uri})`);
+                            
+                            // Play the track
+                            return fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
+                                method: 'PUT',
+                                headers: {
+                                    'Authorization': `Bearer ${accessToken}`,
+                                    'Content-Type': 'application/json'
+                                },
+                                body: JSON.stringify({
+                                    uris: [track.uri]
+                                })
+                            });
+                        } else {
+                            logToDebug(`No tracks found for "${cleanSongName}" by "${cleanArtistName}"`);
+                            alert(`No tracks found for "${cleanSongName}" by "${cleanArtistName}"`);
+                            throw new Error('No tracks found');
+                        }
+                    });
+                }
+            })
+            .then(response => {
+                if (!response.ok && response.status !== 204) {
+                    return response.text().then(text => {
+                        logToDebug(`Spotify API error: ${response.status} - ${text}`);
+                        throw new Error(`Spotify API error: ${response.status} - ${text}`);
+                    });
+                }
+                logToDebug('Track playback started successfully');
+                console.log('Track playback started successfully');
+                alert('Test track playback started');
+            })
+            .catch(error => {
+                logToDebug(`Error playing track: ${error.message}`);
+                console.error('Error playing track:', error);
+                alert(`Error playing track: ${error.message}`);
+            });
+        }
+        
+        // Helper function to log to debug panel
+        function logToDebug(message) {
+            const debugOutput = document.getElementById('debug-output');
+            if (debugOutput) {
+                const timestamp = new Date().toISOString().substr(11, 8);
+                debugOutput.innerHTML += `[${timestamp}] [Spotify] ${message}\n`;
+                // Auto-scroll to bottom
+                debugOutput.scrollTop = debugOutput.scrollHeight;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Vinyl Vibe</h1>
+            <p>Your LLM-powered music discovery experience</p>
+            <button id="spotify-auth-btn" class="spotify-auth-button" onclick="window.location.href='/api/auth/spotify'">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/168px-Spotify_logo_without_text.svg.png" alt="Spotify Logo" class="spotify-logo">
+                Connect with Spotify
+            </button>
+            <button id="spotify-logout-btn" style="background-color: #e74c3c; color: white; padding: 10px 20px; border: none; border-radius: 25px; cursor: pointer; margin-top: 10px; display: inline-block;">
+                Disconnect Spotify
+            </button>
+        </header>
+
+        <div class="player-container">
+            <div class="carousel-container">
+                <button class="carousel-nav prev-btn">&lt;</button>
+                <div class="carousel">
+                    <!-- Welcome Card -->
+                    <div class="welcome-card">
+                        <h2>Welcome to Vinyl Vibe</h2>
+                        <p>Start by adding a song, artist, genre, or mood to create your personalized playlist.</p>
+                        <button class="start-button" onclick="if(typeof window.openAddSeedModal === 'function') window.openAddSeedModal();">Get Started</button>
+                    </div>
+                    
+                    <!-- Add Seed Button -->
+                    <button class="add-seed">+<span class="tooltip">Add Seed</span></button>
+                </div>
+                <button class="carousel-nav next-btn">&gt;</button>
+            </div>
+
+            <div class="audio-controls">
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="control-buttons">
+                    <button id="prev-track">⏮️</button>
+                    <button id="play-track">▶️</button>
+                    <button id="pause-track">⏸️</button>
+                    <button id="next-track">⏭️</button>
+                    <button onclick="testSpotifyPlayback()" style="background-color: #1DB954; color: white; border: none; padding: 5px 10px; border-radius: 5px; cursor: pointer;">Test Spotify</button>
+                    <button onclick="initializeSpotifyPlayer(localStorage.getItem('spotify_access_token'))" style="background-color: #1DB954; color: white; border: none; padding: 5px 10px; border-radius: 5px; cursor: pointer;">Init Player</button>
+                    <div class="volume-control">
+                        <span>🔊</span>
+                        <input type="range" id="volume" min="0" max="100" value="80">
+                    </div>
+                </div>
+            </div>
+
+            <div class="sliders-container">
+                <div class="sliders-header">
+                    <h3>Explorer Sliders</h3>
+                    <button class="toggle-sliders">▲</button>
+                </div>
+                <div class="sliders-content">
+                    <div class="slider-row">
+                        <div class="slider-group">
+                            <label>Genre Variety: <span class="slider-value">50</span></label>
+                            <input type="range" id="genre-variety" name="Genre Variety" min="0" max="100" value="50">
+                            <div class="slider-description">
+                                <span>Focused</span>
+                                <span>Diverse</span>
+                            </div>
+                        </div>
+                        <div class="slider-group">
+                            <label>Artist Fame: <span class="slider-value">50</span></label>
+                            <input type="range" id="artist-fame" name="Artist Fame" min="0" max="100" value="50">
+                            <div class="slider-description">
+                                <span>Obscure</span>
+                                <span>Popular</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-row">
+                        <div class="slider-group">
+                            <label>Theme Focus: <span class="slider-value">50</span></label>
+                            <input type="range" id="theme-focus" name="Theme Focus" min="0" max="100" value="50">
+                            <div class="slider-description">
+                                <span>Loose</span>
+                                <span>Strict</span>
+                            </div>
+                        </div>
+                        <div class="slider-group">
+                            <label>Seed Artist Mix: <span class="slider-value">50</span></label>
+                            <input type="range" id="seed-artist-mix" name="Seed Artist Mix" min="0" max="100" value="50">
+                            <div class="slider-description">
+                                <span>Different</span>
+                                <span>Similar</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="reset-sliders">Reset to Default</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="add-seed-modal">
+            <div class="modal-content">
+                <h2 id="modal-header">Add a New Seed</h2>
+                <p id="modal-description">Enter an artist, song, genre, or mood to add to your playlist</p>
+                <input type="text" id="seed-input" placeholder="e.g., 'Acoustic folk' or 'Road trip vibes'">
+                <input type="text" id="api-key-input" placeholder="API Key">
+                <div class="modal-buttons">
+                    <button id="cancel-seed">Cancel</button>
+                    <button id="submit-seed">Add Seed</button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p> 2025 Vinyl Vibe | Powered by Spotify & AI</p>
+        </footer>
+    </div>
+
+    <!-- Debug Pane -->
+    <div class="debug-pane">
+        <div class="debug-header">
+            <h3>Vinyl Vibe Full-Width Log Panel</h3>
+            <div class="debug-controls">
+                <button id="toggle-debug" style="display: none;">Toggle Debug</button>
+                <button id="clear-debug">Clear Log</button>
+            </div>
+        </div>
+        <pre id="debug-output" style="height: 200px; overflow: auto; white-space: pre-wrap; background-color: #000; color: #0f0; padding: 10px; font-family: monospace; font-size: 12px;"></pre>
+    </div>
+
+    <script src="script.js" type="module"></script>
+    <script>
+        // Direct logout functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const logoutBtn = document.getElementById('spotify-logout-btn');
+            if (logoutBtn) {
+                console.log('Logout button found, adding event listener');
+                
+                // Force the button to be visible
+                logoutBtn.style.display = 'inline-block';
+                
+                logoutBtn.addEventListener('click', function() {
+                    console.log('Logout button clicked');
+                    // Clear all Spotify-related data from localStorage
+                    localStorage.removeItem('spotify_access_token');
+                    localStorage.removeItem('spotify_refresh_token');
+                    localStorage.removeItem('spotify_expires_at');
+                    localStorage.removeItem('spotify_device_id');
+                    
+                    alert('Spotify session cleared. You can now reconnect to Spotify.');
+                    
+                    // Reload the page to reset the state
+                    window.location.reload();
+                });
+            } else {
+                console.error('Logout button not found');
+            }
+            
+            // Debug panel functionality
+            const toggleDebugBtn = document.getElementById('toggle-debug');
+            const clearDebugBtn = document.getElementById('clear-debug');
+            const debugOutput = document.getElementById('debug-output');
+            const debugPane = document.querySelector('.debug-pane');
+            
+            if (toggleDebugBtn) {
+                toggleDebugBtn.addEventListener('click', function() {
+                    if (debugPane.style.display === 'none') {
+                        debugPane.style.display = 'block';
+                    } else {
+                        debugPane.style.display = 'none';
+                    }
+                });
+            }
+            
+            if (clearDebugBtn && debugOutput) {
+                clearDebugBtn.addEventListener('click', function() {
+                    debugOutput.innerHTML = '';
+                });
+            }
+            
+            // Add initial debug info
+            if (debugOutput) {
+                const timestamp = new Date().toISOString().substr(11, 8);
+                debugOutput.innerHTML += `[${timestamp}] [System] Debug panel initialized\n`;
+                
+                // Add Spotify auth state
+                const spotifyToken = localStorage.getItem('spotify_access_token');
+                const spotifyRefreshToken = localStorage.getItem('spotify_refresh_token');
+                const spotifyExpiresAt = localStorage.getItem('spotify_expires_at');
+                const spotifyDeviceId = localStorage.getItem('spotify_device_id');
+                
+                debugOutput.innerHTML += `[${timestamp}] [System] Spotify auth state:\n`;
+                debugOutput.innerHTML += `[${timestamp}] [System] - Access token: ${spotifyToken ? 'Present' : 'Not found'}\n`;
+                debugOutput.innerHTML += `[${timestamp}] [System] - Refresh token: ${spotifyRefreshToken ? 'Present' : 'Not found'}\n`;
+                debugOutput.innerHTML += `[${timestamp}] [System] - Expires at: ${spotifyExpiresAt ? new Date(parseInt(spotifyExpiresAt)).toISOString() : 'Not found'}\n`;
+                debugOutput.innerHTML += `[${timestamp}] [System] - Device ID: ${spotifyDeviceId || 'Not found'}\n`;
+            }
+            
+            // Override any attempts to hide the logout button
+            setInterval(function() {
+                const logoutBtn = document.getElementById('spotify-logout-btn');
+                if (logoutBtn && logoutBtn.style.display === 'none') {
+                    console.log('Forcing logout button to be visible (interval)');
+                    logoutBtn.style.display = 'inline-block';
+                }
+            }, 1000); // Check every second
+            
+            // Check if we have a token and initialize player if needed
+            const accessToken = localStorage.getItem('spotify_access_token');
+            if (accessToken && window.spotifySDKReady && typeof initializeSpotifyPlayer === 'function') {
+                console.log('Initializing Spotify player from DOMContentLoaded');
+                initializeSpotifyPlayer(accessToken);
+            }
+        });
+    </script>
+    <script src="js/engine-integration.js" type="module"></script>
+    <script src="js/toggle-debug.js"></script>
+</body>
+</html>
