@@ -1,0 +1,6 @@
+{
+    "windsurf.autoExecutionPolicy": "turbo",
+    "files.readonlyExclude": {
+        "/": true
+    }
+}

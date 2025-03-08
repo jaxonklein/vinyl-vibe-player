@@ -2962,6 +2962,73 @@
   ],
   "BQDDi-97Mo": [
     {
+      "id": "1740996195458",
+      "description": "sofi tukker",
+      "tracks": [
+        {
+          "id": "6wUfCQr7Z8XZ8BQeMSyJqo",
+          "name": "Drinkee",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:6wUfCQr7Z8XZ8BQeMSyJqo"
+        },
+        {
+          "id": "5kqIPrATaW3p0lMh7NcaKm",
+          "name": "Best Friend (feat. NERVO, The Knocks & Alisa Ueno)",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:5kqIPrATaW3p0lMh7NcaKm"
+        },
+        {
+          "id": "2M9ULmQwab6X9J1z6ZSiTJ",
+          "name": "Purple Hat",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:2M9ULmQwab6X9J1z6ZSiTJ"
+        },
+        {
+          "id": "6gJYp5quqKQq8L3ZZk4lV0",
+          "name": "Batshit",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:6gJYp5quqKQq8L3ZZk4lV0"
+        },
+        {
+          "id": "2iCkHj1h8tK6eTn4KSLVUe",
+          "name": "Fantasy",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:2iCkHj1h8tK6eTn4KSLVUe"
+        },
+        {
+          "id": "7bNCTW3tVFcQXGwDyZu48t",
+          "name": "Swing",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:7bNCTW3tVFcQXGwDyZu48t"
+        },
+        {
+          "id": "7h9Ym9PnHl3N1HdJPn1f5N",
+          "name": "Energia",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:7h9Ym9PnHl3N1HdJPn1f5N"
+        },
+        {
+          "id": "3R1X34MbtN7N1ZDPOyj5dE",
+          "name": "Good Time Girl (feat. Charlie Barker)",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:3R1X34MbtN7N1ZDPOyj5dE"
+        },
+        {
+          "id": "5IeGzDCaYyIgS9A5oIq4q8",
+          "name": "Hey Lion",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:5IeGzDCaYyIgS9A5oIq4q8"
+        },
+        {
+          "id": "3DQ3m2sMv6rXBJaFjVY1kX",
+          "name": "My Body Hurts",
+          "artist": "Sofi Tukker",
+          "uri": "spotify:track:3DQ3m2sMv6rXBJaFjVY1kX"
+        }
+      ],
+      "createdAt": "2025-03-03T10:03:15.458Z"
+    },
+    {
       "id": "1740994910534",
       "description": "music like purple hat, but not only sofi tukker",
       "tracks": [
@@ -3027,6 +3094,187 @@
         }
       ],
       "createdAt": "2025-03-03T09:41:50.534Z"
+    }
+  ],
+  "BQBS3NRnPn": [
+    {
+      "id": "1741010692904",
+      "description": "purple hat like music",
+      "tracks": [
+        {
+          "id": "3AH3l5lMqFE4p04dY5s9jO",
+          "name": "Purple Hat",
+          "artist": "Sofia Carson",
+          "uri": "spotify:track:3AH3l5lMqFE4p04dY5s9jO"
+        },
+        {
+          "id": "1wJRveJZvUcQ0C6GTTkV0D",
+          "name": "Like That",
+          "artist": "Doja Cat",
+          "uri": "spotify:track:1wJRveJZvUcQ0C6GTTkV0D"
+        },
+        {
+          "id": "3ZCTVFBt2Brf31RLEnCkWJ",
+          "name": "Bad Guy",
+          "artist": "Billie Eilish",
+          "uri": "spotify:track:3ZCTVFBt2Brf31RLEnCkWJ"
+        },
+        {
+          "id": "5hVghJ4KaYES3BFUATCYn0",
+          "name": "RITMO (Bad Boys For Life)",
+          "artist": "The Black Eyed Peas",
+          "uri": "spotify:track:5hVghJ4KaYES3BFUATCYn0"
+        },
+        {
+          "id": "1uNFoZAHBGtllmzznpCI3s",
+          "name": "BLACKPINK",
+          "artist": "How You Like That",
+          "uri": "spotify:track:1uNFoZAHBGtllmzznpCI3s"
+        },
+        {
+          "id": "4nK5YrxbMGZstTLbvj6Gxw",
+          "name": "Dance Monkey",
+          "artist": "Tones And I",
+          "uri": "spotify:track:4nK5YrxbMGZstTLbvj6Gxw"
+        },
+        {
+          "id": "4vjpLMyL3ZO6aphdYr8XYt",
+          "name": "My Oh My (feat. DaBaby)",
+          "artist": "Camila Cabello",
+          "uri": "spotify:track:4vjpLMyL3ZO6aphdYr8XYt"
+        },
+        {
+          "id": "6wJYhPfqk3KGhHRG76WzOh",
+          "name": "Don't Start Now",
+          "artist": "Dua Lipa",
+          "uri": "spotify:track:6wJYhPfqk3KGhHRG76WzOh"
+        },
+        {
+          "id": "3HVWdVOQ0ZA45FuZGSfvns",
+          "name": "Uptown Funk",
+          "artist": "Mark Ronson",
+          "uri": "spotify:track:3HVWdVOQ0ZA45FuZGSfvns"
+        },
+        {
+          "id": "1Cv1YLb4q0RzL6pybtaMLo",
+          "name": "Levitating",
+          "artist": "Dua Lipa",
+          "uri": "spotify:track:1Cv1YLb4q0RzL6pybtaMLo"
+        }
+      ],
+      "createdAt": "2025-03-03T14:04:52.904Z"
+    },
+    {
+      "id": "1741008605458",
+      "description": "80s hair band",
+      "tracks": [
+        {
+          "id": "7o2CTH4ctstm8TNelqjb51",
+          "name": "Sweet Child O' Mine",
+          "artist": "Guns N' Roses",
+          "uri": "spotify:track:7o2CTH4ctstm8TNelqjb51"
+        },
+        {
+          "id": "0J6mQxEZnlRt9ymzFntA6z",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "uri": "spotify:track:0J6mQxEZnlRt9ymzFntA6z"
+        },
+        {
+          "id": "1TfqLAPs4K3s2rJMoCokcS",
+          "name": "Sweet Dreams (Are Made of This)",
+          "artist": "Eurythmics",
+          "uri": "spotify:track:1TfqLAPs4K3s2rJMoCokcS"
+        },
+        {
+          "id": "7s25THrKz86DM225dOYwnr",
+          "name": "Respect",
+          "artist": "Aretha Franklin",
+          "uri": "spotify:track:7s25THrKz86DM225dOYwnr"
+        },
+        {
+          "id": "5P68BrqKFCpNXaYLBRTt2C",
+          "name": "Waterloo",
+          "artist": "ABBA",
+          "uri": "spotify:track:5P68BrqKFCpNXaYLBRTt2C"
+        },
+        {
+          "id": "0GjEhVFGZW8afUYGChu3Rr",
+          "name": "Dancing Queen",
+          "artist": "ABBA",
+          "uri": "spotify:track:0GjEhVFGZW8afUYGChu3Rr"
+        },
+        {
+          "id": "2WfaOiMkCvy7F5fcp2zZ8L",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "uri": "spotify:track:2WfaOiMkCvy7F5fcp2zZ8L"
+        },
+        {
+          "id": "5ghIJDpPoe3CfHMGu71E6T",
+          "name": "Smells Like Teen Spirit",
+          "artist": "Nirvana",
+          "uri": "spotify:track:5ghIJDpPoe3CfHMGu71E6T"
+        },
+        {
+          "id": "4pbG9SUmWIvsROVLF0zF9s",
+          "name": "I Want to Hold Your Hand",
+          "artist": "The Beatles",
+          "uri": "spotify:track:4pbG9SUmWIvsROVLF0zF9s"
+        },
+        {
+          "id": "7pKfPomDEeI4TPT6EOYjn9",
+          "name": "Imagine",
+          "artist": "John Lennon",
+          "uri": "spotify:track:7pKfPomDEeI4TPT6EOYjn9"
+        }
+      ],
+      "createdAt": "2025-03-03T13:30:05.458Z"
+    }
+  ],
+  "BQAr9S1HqQ": [
+    {
+      "id": "1741010730497",
+      "description": "purple hat like music",
+      "tracks": [
+        {
+          "id": "2WfaOiMkCvy7F5fcp2zZ8L",
+          "name": "Take On Me",
+          "artist": "a-ha",
+          "uri": "spotify:track:2WfaOiMkCvy7F5fcp2zZ8L"
+        },
+        {
+          "id": "0J6mQxEZnlRt9ymzFntA6z",
+          "name": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "uri": "spotify:track:0J6mQxEZnlRt9ymzFntA6z"
+        },
+        {
+          "id": "1TfqLAPs4K3s2rJMoCokcS",
+          "name": "Sweet Dreams (Are Made of This)",
+          "artist": "Eurythmics",
+          "uri": "spotify:track:1TfqLAPs4K3s2rJMoCokcS"
+        },
+        {
+          "id": "4eHbdreAnSOrDDsFfc4Fpm",
+          "name": "I Will Always Love You",
+          "artist": "Whitney Houston",
+          "uri": "spotify:track:4eHbdreAnSOrDDsFfc4Fpm"
+        },
+        {
+          "id": "1YQGBu0P5NhxVETYrklthE",
+          "name": "Superstition",
+          "artist": "Stevie Wonder",
+          "uri": "spotify:track:1YQGBu0P5NhxVETYrklthE"
+        },
+        {
+          "id": "5P68BrqKFCpNXaYLBRTt2C",
+          "name": "Waterloo",
+          "artist": "ABBA",
+          "uri": "spotify:track:5P68BrqKFCpNXaYLBRTt2C"
+        }
+      ],
+      "createdAt": "2025-03-03T14:05:30.497Z"
     }
   ]
 }

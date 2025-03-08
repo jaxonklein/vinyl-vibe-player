@@ -629,64 +629,164 @@
   ],
   "BQDDi-97Mo": [
     {
-      "id": "4JpKVNYnVcJ8tuMKjAj50A",
-      "name": "Say So",
+      "id": "6wUfCQr7Z8XZ8BQeMSyJqo",
+      "name": "Drinkee",
+      "artist": "Sofi Tukker",
+      "uri": "spotify:track:6wUfCQr7Z8XZ8BQeMSyJqo"
+    },
+    {
+      "id": "5kqIPrATaW3p0lMh7NcaKm",
+      "name": "Best Friend (feat. NERVO, The Knocks & Alisa Ueno)",
+      "artist": "Sofi Tukker",
+      "uri": "spotify:track:5kqIPrATaW3p0lMh7NcaKm"
+    },
+    {
+      "id": "2M9ULmQwab6X9J1z6ZSiTJ",
+      "name": "Purple Hat",
+      "artist": "Sofi Tukker",
+      "uri": "spotify:track:2M9ULmQwab6X9J1z6ZSiTJ"
+    },
+    {
+      "id": "6gJYp5quqKQq8L3ZZk4lV0",
+      "name": "Batshit",
+      "artist": "Sofi Tukker",
+      "uri": "spotify:track:6gJYp5quqKQq8L3ZZk4lV0"
+    },
+    {
+      "id": "2iCkHj1h8tK6eTn4KSLVUe",
+      "name": "Fantasy",
+      "artist": "Sofi Tukker",
+      "uri": "spotify:track:2iCkHj1h8tK6eTn4KSLVUe"
+    },
+    {
+      "id": "7bNCTW3tVFcQXGwDyZu48t",
+      "name": "Swing",
+      "artist": "Sofi Tukker",
+      "uri": "spotify:track:7bNCTW3tVFcQXGwDyZu48t"
+    },
+    {
+      "id": "7h9Ym9PnHl3N1HdJPn1f5N",
+      "name": "Energia",
+      "artist": "Sofi Tukker",
+      "uri": "spotify:track:7h9Ym9PnHl3N1HdJPn1f5N"
+    },
+    {
+      "id": "3R1X34MbtN7N1ZDPOyj5dE",
+      "name": "Good Time Girl (feat. Charlie Barker)",
+      "artist": "Sofi Tukker",
+      "uri": "spotify:track:3R1X34MbtN7N1ZDPOyj5dE"
+    },
+    {
+      "id": "5IeGzDCaYyIgS9A5oIq4q8",
+      "name": "Hey Lion",
+      "artist": "Sofi Tukker",
+      "uri": "spotify:track:5IeGzDCaYyIgS9A5oIq4q8"
+    },
+    {
+      "id": "3DQ3m2sMv6rXBJaFjVY1kX",
+      "name": "My Body Hurts",
+      "artist": "Sofi Tukker",
+      "uri": "spotify:track:3DQ3m2sMv6rXBJaFjVY1kX"
+    }
+  ],
+  "BQBS3NRnPn": [
+    {
+      "id": "3AH3l5lMqFE4p04dY5s9jO",
+      "name": "Purple Hat",
+      "artist": "Sofia Carson",
+      "uri": "spotify:track:3AH3l5lMqFE4p04dY5s9jO"
+    },
+    {
+      "id": "1wJRveJZvUcQ0C6GTTkV0D",
+      "name": "Like That",
       "artist": "Doja Cat",
-      "uri": "spotify:track:4JpKVNYnVcJ8tuMKjAj50A"
+      "uri": "spotify:track:1wJRveJZvUcQ0C6GTTkV0D"
     },
     {
-      "id": "42YM9sJdYfGpR5oQnM2TmU",
-      "name": "Levitating (feat. DaBaby)",
-      "artist": "Dua Lipa",
-      "uri": "spotify:track:42YM9sJdYfGpR5oQnM2TmU"
+      "id": "3ZCTVFBt2Brf31RLEnCkWJ",
+      "name": "Bad Guy",
+      "artist": "Billie Eilish",
+      "uri": "spotify:track:3ZCTVFBt2Brf31RLEnCkWJ"
     },
     {
-      "id": "0EhpEsp4L0oRGM0vmeaN5e",
-      "name": "Adore You",
-      "artist": "Harry Styles",
-      "uri": "spotify:track:0EhpEsp4L0oRGM0vmeaN5e"
+      "id": "5hVghJ4KaYES3BFUATCYn0",
+      "name": "RITMO (Bad Boys For Life)",
+      "artist": "The Black Eyed Peas",
+      "uri": "spotify:track:5hVghJ4KaYES3BFUATCYn0"
     },
     {
-      "id": "4vjpLMyL3ZO6aphdYr8XYh",
-      "name": "Physical",
-      "artist": "Dua Lipa",
-      "uri": "spotify:track:4vjpLMyL3ZO6aphdYr8XYh"
+      "id": "1uNFoZAHBGtllmzznpCI3s",
+      "name": "BLACKPINK",
+      "artist": "How You Like That",
+      "uri": "spotify:track:1uNFoZAHBGtllmzznpCI3s"
     },
     {
-      "id": "6UelLqGlWMcVH1E5c4H7lY",
-      "name": "Watermelon Sugar",
-      "artist": "Harry Styles",
-      "uri": "spotify:track:6UelLqGlWMcVH1E5c4H7lY"
+      "id": "4nK5YrxbMGZstTLbvj6Gxw",
+      "name": "Dance Monkey",
+      "artist": "Tones And I",
+      "uri": "spotify:track:4nK5YrxbMGZstTLbvj6Gxw"
     },
     {
-      "id": "7szuecWAPwGoV1e5vGu8tl",
-      "name": "Don't Start Now",
-      "artist": "Dua Lipa",
-      "uri": "spotify:track:7szuecWAPwGoV1e5vGu8tl"
-    },
-    {
-      "id": "3jjujdWJ72nww5eGnfs2E7",
-      "name": "Blinding Lights",
-      "artist": "The Weeknd",
-      "uri": "spotify:track:3jjujdWJ72nww5eGnfs2E7"
-    },
-    {
-      "id": "5nujrmhLynf4yMoMtj8AQF",
-      "name": "Save Your Tears",
-      "artist": "The Weeknd",
-      "uri": "spotify:track:5nujrmhLynf4yMoMtj8AQF"
-    },
-    {
-      "id": "2kJwzbxV2ppxnQoYw4GLBZ",
-      "name": "Levitating",
-      "artist": "Dua Lipa",
-      "uri": "spotify:track:2kJwzbxV2ppxnQoYw4GLBZ"
+      "id": "4vjpLMyL3ZO6aphdYr8XYt",
+      "name": "My Oh My (feat. DaBaby)",
+      "artist": "Camila Cabello",
+      "uri": "spotify:track:4vjpLMyL3ZO6aphdYr8XYt"
     },
     {
       "id": "6wJYhPfqk3KGhHRG76WzOh",
-      "name": "Levitating (The Blessed Madonna Remix) [feat. Madonna and Missy Elliott]",
+      "name": "Don't Start Now",
       "artist": "Dua Lipa",
       "uri": "spotify:track:6wJYhPfqk3KGhHRG76WzOh"
+    },
+    {
+      "id": "3HVWdVOQ0ZA45FuZGSfvns",
+      "name": "Uptown Funk",
+      "artist": "Mark Ronson",
+      "uri": "spotify:track:3HVWdVOQ0ZA45FuZGSfvns"
+    },
+    {
+      "id": "1Cv1YLb4q0RzL6pybtaMLo",
+      "name": "Levitating",
+      "artist": "Dua Lipa",
+      "uri": "spotify:track:1Cv1YLb4q0RzL6pybtaMLo"
+    }
+  ],
+  "BQAr9S1HqQ": [
+    {
+      "id": "2WfaOiMkCvy7F5fcp2zZ8L",
+      "name": "Take On Me",
+      "artist": "a-ha",
+      "uri": "spotify:track:2WfaOiMkCvy7F5fcp2zZ8L"
+    },
+    {
+      "id": "0J6mQxEZnlRt9ymzFntA6z",
+      "name": "Livin' on a Prayer",
+      "artist": "Bon Jovi",
+      "uri": "spotify:track:0J6mQxEZnlRt9ymzFntA6z"
+    },
+    {
+      "id": "1TfqLAPs4K3s2rJMoCokcS",
+      "name": "Sweet Dreams (Are Made of This)",
+      "artist": "Eurythmics",
+      "uri": "spotify:track:1TfqLAPs4K3s2rJMoCokcS"
+    },
+    {
+      "id": "4eHbdreAnSOrDDsFfc4Fpm",
+      "name": "I Will Always Love You",
+      "artist": "Whitney Houston",
+      "uri": "spotify:track:4eHbdreAnSOrDDsFfc4Fpm"
+    },
+    {
+      "id": "1YQGBu0P5NhxVETYrklthE",
+      "name": "Superstition",
+      "artist": "Stevie Wonder",
+      "uri": "spotify:track:1YQGBu0P5NhxVETYrklthE"
+    },
+    {
+      "id": "5P68BrqKFCpNXaYLBRTt2C",
+      "name": "Waterloo",
+      "artist": "ABBA",
+      "uri": "spotify:track:5P68BrqKFCpNXaYLBRTt2C"
     }
   ]
 }

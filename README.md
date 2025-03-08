@@ -9,6 +9,21 @@ A web application that uses AI to generate personalized playlists and play them 
 - Web-based music playback using Spotify Web Playback SDK
 - Interactive UI with player controls
 - Feedback mechanism for refining music recommendations
+- Vinyl Vibe carousel player with retro vinyl-inspired design
+
+## Components
+
+### Main Music Player
+- Spotify integration
+- Text-based playlist generation
+- Basic playback controls
+
+### Vinyl Vibe Carousel Player
+- Horizontal carousel of song cards
+- Explorer sliders for fine-tuning recommendations
+- Detailed feedback system with trait-specific controls
+- Retro vinyl-inspired UI with animations
+- Add seed functionality for new music discovery
 
 ## Tech Stack
 
@@ -42,17 +57,24 @@ A web application that uses AI to generate personalized playlists and play them 
    ```
 4. Start the server:
    ```
-   node server/app.js
+   npm start
    ```
 5. Open http://localhost:3000 in your browser
 
 ## Usage
 
+### Main Player
 1. Log in with your Spotify account
-2. Enter a description for the playlist you want to generate
-3. Click "Generate Playlist" to create a personalized playlist
-4. Use the player controls to play, pause, and skip tracks
-5. Provide feedback with thumbs up/down to improve recommendations
+2. Enter a description for the kind of playlist you want
+3. Use the player controls to interact with your generated playlist
+
+### Vinyl Vibe Player
+1. Navigate to the Vinyl Vibe Player using the link on the main page
+2. Browse through the carousel of song cards
+3. Provide feedback using thumbs up/down and trait-specific buttons
+4. Adjust the explorer sliders to fine-tune recommendations
+5. Add new seeds to discover more music
+6. Use the playback controls to play, pause, and navigate between songs
 
 ## License
 
