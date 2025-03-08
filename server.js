@@ -37,6 +37,7 @@ app.use((req, res, next) => {
   next();
 });
 
+
 // Add middleware for parsing request bodies
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

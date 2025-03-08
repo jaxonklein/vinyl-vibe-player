@@ -102,6 +102,7 @@ async function initEngine() {
             console.error('All API key retrieval methods failed:', error);
             log('Failed to retrieve API key through any method');
         }
+
     }
     
     // Set the API key input value if we have one
@@ -119,6 +120,7 @@ async function initEngine() {
         log('API key successfully found and ready to use');
     }
     
+
     try {
         // Create engine instance
         engine = new RecommendationEngine({
