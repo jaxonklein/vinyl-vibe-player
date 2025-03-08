@@ -87,16 +87,10 @@ async function initEngine() {
                 console.error('Endpoint fetch error:', endpointError);
             }
             
-            // Method 2: For development/testing only - use hardcoded key if in debug mode
-            // This should NEVER be used in production
+            // Method 2: For development/testing only - use safer approach
             if (!apiKey && DEBUG_MODE) {
-                // Get the key we found via curl testing
-                // This is ONLY for testing in the browser preview environment
-                console.log('Method 2: Using development key for testing');
-                apiKey = 'API_KEY_REMOVED';
-                localStorage.setItem('vinylVibeApiKey', apiKey);
-                console.log('Using development API key for testing');
-                log('Using development API key for testing');
+                console.log('Method 2: No API key found. Please enter one manually or check server configuration.');
+                log('API key not found. Please enter it manually.');
             }
         } catch (error) {
             console.error('All API key retrieval methods failed:', error);
