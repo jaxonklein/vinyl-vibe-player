@@ -55,8 +55,8 @@ async function initEngine() {
     // Initialize debug logger
     debugLogger.init();
     
-    // Get API key from localStorage or input, or use the hardcoded one for testing
-    let apiKey = localStorage.getItem('vinylVibeApiKey') || 'API_KEY_REMOVED';
+    // Get API key from localStorage or input
+    let apiKey = localStorage.getItem('vinylVibeApiKey') || '';
     
     // Set the API key input value if we have one
     if (apiKeyInput && apiKey) {
