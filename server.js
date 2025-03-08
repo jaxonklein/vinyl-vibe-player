@@ -5,12 +5,37 @@ const crypto = require('crypto');
 const session = require('express-session');
 const axios = require('axios');
 const querystring = require('querystring');
+const cors = require('cors');
 
 // Load environment variables
 dotenv.config();
 
+// Verify that environment variables are loaded
+console.log('Loaded environment variables:');
+console.log('- SPOTIFY_CLIENT_ID:', process.env.SPOTIFY_CLIENT_ID ? 'Found' : 'Not found');
+console.log('- SPOTIFY_CLIENT_SECRET:', process.env.SPOTIFY_CLIENT_SECRET ? 'Found' : 'Not found');
+console.log('- OPENAI_API_KEY:', process.env.OPENAI_API_KEY ? 'Found' : 'Not found');
+console.log('- PORT:', process.env.PORT || '8080 (default)');
+
+
 const app = express();
 const PORT = process.env.PORT || 8080;
+
+// Add request logger middleware
+app.use((req, res, next) => {
+  console.log(`${new Date().toISOString()} - ${req.method} ${req.url}`);
+  next();
+});
+
+// Enable CORS for all routes
+app.use(cors());
+
+// Add CORS headers to ensure API key can be accessed
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
 
 // Add middleware for parsing request bodies
 app.use(express.json());
@@ -29,8 +54,35 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // API endpoint to get OpenAI API key
 app.get('/api/config', (req, res) => {
+  console.log('API Key endpoint called');
+  const apiKey = process.env.OPENAI_API_KEY || '';
+  console.log('API Key from env:', apiKey ? 'Found (length: ' + apiKey.length + ')' : 'Not found');
+  console.log('API Key first 5 chars:', apiKey.substring(0, 3) + (apiKey.length > 3 ? '...' : ''));
+  console.log('Is API Key empty?', apiKey === '');
+  console.log('Request headers:', JSON.stringify(req.headers));
+  
+  // Set explicit CORS headers for this endpoint
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  
+  // Send the API key to the client
   res.json({
-    openaiApiKey: process.env.OPENAI_API_KEY || ''
+    openaiApiKey: apiKey,
+    status: 'success',
+    message: 'API key retrieved successfully'
+  });
+  
+  console.log('API Key response sent');
+});
+
+// Create a test endpoint to verify server communication
+app.get('/api/test', (req, res) => {
+  console.log('Test endpoint called');
+  res.json({
+    status: 'success',
+    message: 'API test endpoint working correctly',
+    timestamp: new Date().toISOString()
   });
 });
 
